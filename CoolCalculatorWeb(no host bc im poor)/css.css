@@ -1,0 +1,206 @@
+body{
+    background-color: #fffbf8;
+}
+.body1{
+    position: relative;
+    width: 1200px;
+    height: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    background-color: #ffdfcb;
+    border-radius: 50px;
+}
+.scr1{
+    position: absolute;
+    top: 80px;
+    left: 4%;
+    border: thick double #fffbf8;
+    border-width: 10px;
+}
+.maintext{
+    font-family: 'Brush Script MT', cursive;
+    color: #af4300;
+    font-size: 100px;
+    position: absolute;
+    right: 20%;
+    top: 55px;
+}
+.Pag{
+    position: absolute;
+    right: -140px;
+}
+.button{
+    width: 20%;
+    height: 70px;
+    position: absolute;
+    left: 40%;
+    top: 250px;
+    background-color: #ff6200;
+    transition: 0.2s;
+    border: thick double #fffbf8;
+    border-width: 10px;
+    border-radius: 30px;
+
+    font-family: 'Courier New', monospace;
+    color: #ffdfcb;
+    font-size: 250%;
+}
+.button:hover{
+    background-color: #d35100;
+}
+.screenshots{
+    background-color: #ffd0b2;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 500px;
+}
+.scrtxt{
+    font-family: 'Lucida Handwriting', cursive;
+    color: #af4300;
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+}
+.scr2{
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    width: 250px;
+    height: 274px;
+    transition: 1s;
+}
+.scr2:hover{
+    width: 350px;
+    height: 374px;
+    z-index: 1;
+}
+.scr3{
+    position: absolute;
+    left: 27%;
+    top: 250px;
+    width: 251px;
+    height: 274px;
+    transition: 1s;
+}
+.scr3:hover{
+    width: 351px;
+    height: 374px;
+    z-index: 1;
+}
+.scr4{
+    position: absolute;
+    right: 27%;
+    top: 250px;
+    width: 250px;
+    height: 274px;
+    transition: 1s;
+}
+.scr4:hover{
+    width: 350px;
+    height: 374px;
+    z-index: 1;
+}
+.scr5{
+    position: absolute;
+    right: 50px;
+    top: 250px;
+    width: 250px;
+    height: 274px;
+    transition: 1s;
+}
+.scr5:hover{
+    width: 350px;
+    height: 374px;
+    z-index: 1;
+}
+
+.contact{
+    width: 100%;
+    position: absolute;
+    top: 1200px;
+}
+.contxt{
+    font-family: 'Lucida Handwriting', cursive;
+    color: #af4300;
+    position: absolute;
+    left: 30px;
+}
+.discord{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    border: 0px;
+    
+    background-color: #5765EC;
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.discord:hover{
+    width: 160px;
+}
+.discordtxt{
+    font-family: "Papyrus", Fantasy;
+    font-size: 17px;
+    position: absolute;
+    bottom: -13px;
+    right: 35px;
+    color: #fffbf8;
+}
+.discordlogo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+}
+.copyico1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 7px;
+    top: 5px;
+}
+
+
+.telegram{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    
+    background-color: #00AEED;
+    border-radius: 5px;
+    transition: 1s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.telegram:hover{
+    width: 160px;
+}
+.telegramtxt{
+    font-family: "Papyrus", Fantasy;
+    font-size: 17px;
+    position: absolute;
+    bottom: -13px;
+    right: 35px;
+    color: #fffbf8;
+}
+.telegramlogo{
+    position: absolute;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+}
+.openico{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -25px;
+}

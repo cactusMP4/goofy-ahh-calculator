@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    
+    <title>Download cool calculator</title>
+</head>
+<body>
+    <div class="body1">
+        <h1 class="maintext">Cool Calculator<img src="Pag.png" class="Pag"></h1>
+        <img src="Screenshot1.png" class="scr1">
+        <a href="CoolSetup.exe"><button class="button">download</button></a>
+        <div class="screenshots">
+            <h2 class="scrtxt">Screenshots</h2>
+            <img src="Screenshot2.png" class="scr2">
+            <img src="Screenshot3.png" class="scr3">
+            <img src="Screenshot4.png" class="scr4">
+            <img src="Screenshot5.png" class="scr5">
+        </div>
+        <div class="contact">
+            <h2 class="contxt">Contact me(pls i need friends)</h2>
+            <button class="discord" id="disbut"><p class="discordtxt">@cactusmp4</p><img src="copy.png" class="copyico1"><img src="discordlogo.png" class="discordlogo"></button>
+            <a target="_blank" href="https://t.me/cactusMP4"><div class="telegram"><p class="telegramtxt">@cactusMP4<img src="open.png" class="openico"></p><img src="telegramlogo.png" class="telegramlogo"></div></a>
+            <script>
+                const button = document.getElementById("disbut")
+                button.addEventListener("click", ()=>{
+                    const sysInput = document.createElement("input");
+                    sysInput.setAttribute("value", "cactusmp4");
+                    document.body.appendChild(sysInput);
+                    sysInput.select();
+                    document.execCommand("copy");
+                    document.body.removeChild(sysInput)
+                    
+                    const txt = document.getElementsByClassName('discordtxt')
+                    txt[0].textContent = "Copyed!";
+                    function sayHi() {
+                        txt[0].textContent = "@cactusmp4";
+                    }
+
+                    setTimeout(sayHi, 1000);    
+                })
+            </script>
+        </div>
+    </div>
+</body>
+</html>
